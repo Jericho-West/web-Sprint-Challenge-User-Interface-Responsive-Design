@@ -190,6 +190,9 @@ header img {
 .middle-content .boxes .box:nth-child(10) {
     background-color: dodgerblue;
 }
+.middle-content {
+    border-bottom: 2px solid #ff4b00;
+}
 
 /*Bottom Section Styles*/
 .bottom-content {
@@ -276,6 +279,9 @@ footer nav a {
 }
 
 @media only screen and (max-width: 500px) {
+    
+
+
     .middle-content .boxes .box {
         padding: 15%;
       }
@@ -292,8 +298,16 @@ footer nav a {
         justify-content: center;
         flex-direction: row;
     }
+    .bottom-content .text-container {
+        width: 100%;
+    }
     .top-content .text-container {
         width: 100%;
+    }
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .top-content{
@@ -301,6 +315,15 @@ footer nav a {
         flex-direction: column;
         justify-content: center;
     }
+
+    .bottom-content h2 {
+        text-align: center;
+    }
+    .top-content h2 {
+        text-align: center;
+    }
+
+
     footer nav {
         display: flex;
         flex-direction: column;
