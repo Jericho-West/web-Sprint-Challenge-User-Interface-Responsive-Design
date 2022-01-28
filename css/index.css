@@ -69,7 +69,7 @@ section, footer{
     padding:4% 0;
 }
 .container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -107,7 +107,7 @@ header img {
     max-width: 30%;
 }
 
-img {
+.imag img {
     width: 100%;
     height: auto;
 }
@@ -136,7 +136,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 6.6%;
+    padding: 6.8%;
 }
 
 .middle-content .boxes .box:nth-child(1) {
@@ -201,6 +201,34 @@ footer nav a {
 
 
 /*About Page Styles*/
+.test {
+    display: flex;
+    flex-direction: row;
+}
+.test img {
+    max-width: 90%;
+    padding: 5%;
+}
+.abo {
+    border-bottom: 3px solid #ff4b00;
+}
+.pancake {
+    border-bottom: 3px solid #ff4b00;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.work {
+     padding-top: 5%;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-bottom: 5%;
+}
 
+.imag2 img {
+    width: 80%;
+    height: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+}
 
 /*Responsive Styles*/
