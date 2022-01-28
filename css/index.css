@@ -69,7 +69,7 @@ section, footer{
     padding:4% 0;
 }
 .container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -90,7 +90,55 @@ section, footer{
     padding-bottom: 4%;  
 }
 
+header {
+    padding-top: 35px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.test3 {
+    padding-right: 0px
+}
+
+.headthing {
+    padding-right: 2.5%;
+}
+
+
+
+
+
+@media only screen and (min-width: 501px) {
+    .test2 {
+    display: flex;
+    flex-direction: row;
+}
+    header {
+        margin-left: 10%;
+    }
+}
+
+
+header a {
+    color: #444;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header img {
+    max-width: 50%;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.imag img {
+    width: 100%;
+    height: auto;
+}
+
 /*Middle Section Styles*/
+
 .middle-content {
     margin-bottom: 4%;
 }
@@ -112,6 +160,42 @@ section, footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 6.8%;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background-color: dodgerblue;
+}
+.middle-content {
+    border-bottom: 2px solid #ff4b00;
 }
 
 /*Bottom Section Styles*/
@@ -133,8 +217,149 @@ footer {
     width: 100%;
     background-color: #ff4b00;
 }
+footer nav {
+    display: flex;
+    justify-content: space-around;
+}
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
 
 /*About Page Styles*/
+.test {
+    display: flex;
+    flex-direction: row;
+}
+.test img {
+    max-width: 90%;
+    padding: 5%;
+}
+.abo {
+    border-bottom: 3px solid #ff4b00;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pancake {
+    border-bottom: 3px solid #ff4b00;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.work {
+     padding-top: 5%;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-bottom: 5%;
+}
+
+.imag2 img {
+    width: 80%;
+    height: auto;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+.test5 img {
+    max-width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 
 /*Responsive Styles*/
+@media only screen and (max-width: 800px) {
+    .middle-content .boxes .box {
+      padding: 6.3%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .middle-content .boxes .box {
+      padding: 5.7%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .middle-content .boxes .box {
+      padding: 4.9%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+
+
+    .middle-content .boxes .box {
+        padding: 15%;
+      }
+      header {
+        padding-top: 35px;
+        padding-bottom: 50px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .test2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .bottom-content .text-container {
+        width: 100%;
+    }
+    .top-content .text-container {
+        width: 100%;
+    }
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .test{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bottom-content h2 {
+        text-align: center;
+    }
+    .top-content h2 {
+        text-align: center;
+    }
+
+
+    footer nav {
+        display: flex;
+        flex-direction: column;
+    }
+    footer nav a {
+        margin: auto;
+    }
+
+
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .abo {
+        text-align: center;
+    }
+  }
+  
+
